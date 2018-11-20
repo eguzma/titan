@@ -1,0 +1,282 @@
+body{
+	font-family: Segoe UI, sans-serif;
+	font-size: 14px;
+	color: #666;
+}
+
+header{
+	background-color: #000;
+	text-align: center;
+	color: #fff;
+}
+header h1{
+	margin: 0;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-weight: 400;
+	font-size: 22px;
+}
+
+#sec-hero{
+	background-image: url(../img/finance_header_bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 130px 0;
+	color: #fff;
+}
+#sec-hero h4,
+#sec-hero h1{
+	font-weight: 400;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+#sec-hero h4{
+	font-size: 16px;
+}
+#sec-hero h1{
+	font-size: 50px;
+	margin-top: 40px;
+	letter-spacing: 15px;	
+}
+
+.btn-transparente{
+	background-color: transparent;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 7px 40px;
+	letter-spacing: 2px;
+}
+.btn-transparente:hover{
+	}
+	
+
+#sec-quote{
+	background-color: #000;
+	padding: 20px 0;
+}
+
+#sec-quote h3{
+	margin: 0;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-weight: 400;
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 20px;
+	text-align: right;
+}
+
+#sec-quote h5{
+	margin: 0;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-weight: 400;
+	font-size: 11px;
+	color: #fff;
+	text-align: center; 
+}
+
+#sec-quote .btn-light{
+	background-color: #aaa;
+	color:#111;
+	font-size: 12px;
+	padding: 8px 30px;
+}
+.btn-transparente{
+	background-color: transparent;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 7px 40px;
+	letter-spacing: 2px;
+}
+.btn-transparente:hover{
+	}
+
+.sec-espacio{
+	padding: 100px 0;
+}
+#sec-title h3{
+	font-size: 18px;
+	font-style: italic;
+	margin-top: 10px;
+	text-align: center;
+	color: #111;
+	font-weight: 600;
+}
+
+#sec-title p{
+	font-size: 12px;
+	text-align: center;	
+}
+
+#sec-newone{
+text-align: center;
+background-image: url(../img/finance_funfact_bg.jpg);
+background-size: cover;
+background-position: center;
+padding: 130px 0;
+color: #FFFFFF;
+background-attachment: fixed;
+}
+
+#sec-newone h3{
+text-transform: uppercase;
+letter-spacing: 4px;
+font-weight: 600;
+font-size: 22px;
+}
+
+#sec-newone h5{
+font-size: 15px;
+font-style: italic;
+margin-top: 10px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.border{
+border-radius: 15px;
+width: 30px;
+height: 30px;
+}
+
+
+#sec-practice .bg-image{
+	background-image: url(../img/section-practice-areas.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-right: 1px solid #eee;			
+}
+
+
+.titulo{
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	color: #111;
+	margin-bottom: 40px;
+}
+
+#sec-practice h3{
+	font-size: 11px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: left;
+	color: #111;
+	font-weight: 600;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+#sec-practice .sec-espacio{
+	padding: 80px 30px;
+}
+
+#sec-practice .icon{
+	border: 1px solid #111;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+}
+
+#sec-practice p{
+	font-size: 11px;
+	letter-spacing: 2px;
+	text-align: justify;	
+}
+
+#sec-cases {
+	margin-top: 100px;
+}
+
+.padre {
+	position: relative;
+}
+
+.hijo {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	color: #FFFFFF;
+	text-align: center;
+	opacity: 0;
+	transition: all 0.3s ease-in-out;
+	bottom: 100%;
+}
+
+.padre:hover .hijo{
+	opacity: 1;
+	transition: all 0.3s ease-in-out;
+	bottom: 50%;
+	transform: translateY(50%);
+}
+
+.hijo h3{
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.hijo h4{
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #aaa;
+}
+
+.bg-overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	background-color: rgba(0,0,0,0.60);
+	transition: all 0.3s ease-in-out;
+	opacity: 0;
+}
+
+.padre:hover .bg-overlay{
+	opacity: 1;
+	transition: all 0.3s ease-in-out;	
+}
+
+.case2{
+	position: relative;
+}
+
+.case2 .bg-overlay{
+	opacity: 1;
+}
+
+.case2 .case-info{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	background-color: #000;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.case2:hover .hijo{
+	bottom: 0;
+	transform: none;
+}
+
+.case-info h3{
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.case-info h4{
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #aaa;
+
+.footer{
+	background-color: #000;
+	padding: 100px;
+	text-align: center;
+	color: #fff;
+}
